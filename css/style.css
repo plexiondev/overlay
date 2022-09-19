@@ -1,0 +1,54 @@
+/* overlay */
+
+
+:root {
+    --text-head: #FFFFFF;
+    --text-main: rgba(255,255,255,0.7);
+}
+
+
+/* full hero */
+.hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fade {
+    animation: fade 0.25s;
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* text */
+h1, h2, h3, h4, h5 {
+    font-family: Torus;
+    font-weight: 400;
+    color: var(--text-head);
+}
+h1 {
+    font-size: 70px;
+}
+
+.spaced {
+    letter-spacing: 0.8px;
+}
+.salt {
+    font-feature-settings: 'salt';
+}
