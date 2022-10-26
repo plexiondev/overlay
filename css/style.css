@@ -22,6 +22,9 @@
     justify-content: center;
     align-items: center;
 }
+.flex.column {
+    flex-direction: column;
+}
 
 .fade {
     animation: fade 0.25s;
@@ -45,10 +48,30 @@ h1, h2, h3, h4, h5 {
 h1 {
     font-size: 70px;
 }
+h2 {
+    --fixed: 35px !important;
+    font-size: 60px;
+}
+h3 {
+    font-size: 30px;
+}
+
+/* fixed-width text */
+.fixed {
+    --fixed: 10.5px;
+}
+.fixed span:not(:is([digit=","],[digit=":"])) {
+    width: var(--fixed);
+    display: inline-block;
+    text-align: center;
+}
 
 .spaced {
     letter-spacing: 0.8px;
 }
 .salt {
     font-feature-settings: 'salt';
+}
+.strong {
+    font-weight: 500;
 }
