@@ -75,3 +75,25 @@ h3 {
 .strong {
     font-weight: 500;
 }
+
+
+/* music */
+.music {
+    display: flex;
+}
+/* cover */
+.music .cover {
+    --size: 80px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 18%;
+    overflow: hidden;
+}
+.music .cover img {
+    width: var(--size);
+    height: var(--size);
+}
+/* info */
+.music .info {
+    flex: 1;
+}
