@@ -91,6 +91,7 @@ h4 {
     --size: 80px;
     width: var(--size);
     height: var(--size);
+    background-color: #121315;
     border-radius: 18%;
     overflow: hidden;
 }
