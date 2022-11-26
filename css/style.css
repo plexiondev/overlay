@@ -80,6 +80,8 @@ h3 {
 /* music */
 .music {
     display: flex;
+    padding: 10px;
+    gap: 10px;
 }
 /* cover */
 .music .cover {
