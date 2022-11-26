@@ -55,6 +55,9 @@ h2 {
 h3 {
     font-size: 30px;
 }
+h4 {
+    font-size: 22px;
+}
 
 /* fixed-width text */
 .fixed {
@@ -80,8 +83,8 @@ h3 {
 /* music */
 .music {
     display: flex;
-    padding: 10px;
-    gap: 10px;
+    padding: 20px;
+    gap: 20px;
 }
 /* cover */
 .music .cover {
@@ -97,5 +100,9 @@ h3 {
 }
 /* info */
 .music .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
     flex: 1;
 }
