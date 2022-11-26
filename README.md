@@ -31,4 +31,5 @@ prereqs:
 ## [music](music.html)
 ![image](https://user-images.githubusercontent.com/46572320/204112215-84fc250f-4608-4373-a6c8-45fcf0f57293.png)
 - simple music widget, **requires Snip to be installed and working!!**
+  - ensure you have this file structure for everything to work: ![image](https://user-images.githubusercontent.com/46572320/204112280-21072736-b772-4cd0-a596-61e3e9d09a29.png)
 - dimensions: `650?w / 120h` (width can be up 2 you)
