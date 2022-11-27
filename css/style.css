@@ -38,6 +38,19 @@
     }
 }
 
+/* background */
+.bg {
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+/* mica overlay */
+.mica {
+    backdrop-filter: blur(30px) saturate(150%) brightness(50%);
+}
+
 
 /* text */
 h1, h2, h3, h4, h5 {
@@ -76,7 +89,7 @@ h4 {
     font-feature-settings: 'salt';
 }
 .strong {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 
@@ -91,12 +104,12 @@ h4 {
     --size: 80px;
     width: var(--size);
     height: var(--size);
-    background-image: url(../img/cover.png);
-    background-size: 100%;
-    border-radius: 18%;
     overflow: hidden;
 }
 .music .cover img {
+    background-image: url(../img/cover.png);
+    background-size: 100%;
+    border-radius: 18%;
     width: var(--size);
     height: var(--size);
 }
@@ -107,4 +120,23 @@ h4 {
     justify-content: center;
     gap: 5px;
     flex: 1;
+}
+
+/* music fullscreen */
+.music.full {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 60px;
+}
+/* cover */
+.music.full .cover {
+    --size: 380px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* info */
+.music.full .info {
+    gap: 20px;
 }

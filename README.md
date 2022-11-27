@@ -33,3 +33,8 @@ prereqs:
 - simple music widget, **requires Snip to be installed and working!!**
   - ensure you have this file structure for everything to work: ![image](https://user-images.githubusercontent.com/46572320/204112280-21072736-b772-4cd0-a596-61e3e9d09a29.png)
 - dimensions: `650?w / 120h` (width can be up 2 you)
+
+## [music-full](music-full.html)
+![image](https://user-images.githubusercontent.com/46572320/204139997-c5b8a5ba-101c-4ef8-9a3b-d23038473387.png)
+- fullscreen simple music widget, **refer to above for instructions**
+- dimensions: fullscreen (aka. `1920w / 1080h`)
